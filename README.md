@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="![DlEpxMcUYAAswhx](https://github.com/CodeStrong2023/IntegradorJava_BanishedUsers/assets/131505719/73218a8d-6f83-4fe5-b8dc-c6062771c237)" width="400" height="200">
+  <img src="https://github.com/CodeStrong2023/IntegradorJava_BanishedUsers/assets/131505719/73218a8d-6f83-4fe5-b8dc-c6062771c237" width="400" height="200">
 </p>
 <h1 align="center">[CALENDARIO DE PESCA 2023]</h1>
 
