@@ -1,12 +1,18 @@
 package test;
 
+import static domain.AnimacionInicio.AnimacionInicio;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class testMenu {
     	static Scanner entrada = new Scanner(System.in);
 	static int opcion = 0; //opción elegida del usuario
         
-        public static void main(String[] args){
+        public static void main(String[] args)throws IOException, InterruptedException{
+            
+        System.out.println("Maximiza ventana-consola y presiona ENTER :D");
+        int read = System.in.read();
+        AnimacionInicio();
             
         while(opcion != 4){ // Ciclo para continuar con el menu hasta que se digite 4 (Salir)
 	try{ //Try catch para evitar que el programa termine si hay un error
@@ -19,6 +25,7 @@ public class testMenu {
             System.out.println("|_____________________________________|");
             
         // Digitar una opción
+        System.out.println("");
         System.out.print(" Digite una opción --> ");
 	opcion = Integer.parseInt(entrada.nextLine());
         System.out.println("");
