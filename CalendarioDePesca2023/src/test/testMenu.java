@@ -1,18 +1,19 @@
 package test;
 
 import static domain.AnimacionInicio.AnimacionInicio;
+import static domain.Registro.submenuRegistro;
 import java.io.IOException;
 import java.util.Scanner;
 
 public class testMenu {
     	static Scanner entrada = new Scanner(System.in);
-	static int opcion = 0; //opción elegida del usuario
+	static int opcion = 0; // Variable para la opción elegida del usuario
         
         public static void main(String[] args)throws IOException, InterruptedException{
             
         System.out.println("Maximiza ventana-consola y presiona ENTER :D");
-        int read = System.in.read();
-        AnimacionInicio();
+        int read = System.in.read(); // Espera el ENTER para avanzar
+        AnimacionInicio(); // Llamamos al método AnimacionInicio
             
         while(opcion != 4){ // Ciclo para continuar con el menu hasta que se digite 4 (Salir)
 	try{ //Try catch para evitar que el programa termine si hay un error
@@ -33,7 +34,7 @@ public class testMenu {
 	//Switch para las opciones
 	switch(opcion){
 	case 1 -> {
-            // Menu de Registro;
+            submenuRegistro(); // Llamamos al SubMenu de Registro
             break;}
 	case 2 -> {
             // Consultar estado de la Luna
@@ -51,41 +52,9 @@ public class testMenu {
 				
 	System.out.println("\n");
 				
-	}catch(Exception e){
+	}catch(Exception e){ // Por si hay un error imprime el msj y vuelve a ejecutar el ciclo while
             System.out.println("Error! Digite una opción");
             }
-        }
-    }
-        
-  
-    // Define la clase Usuario
-    static class Usuario {
-        private String nombre;
-        private String apellido;
-        private int edad;
-        private String domicilio;
-
-        public Usuario(String nombre, String apellido, int edad, String domicilio) {
-            this.nombre = nombre;
-            this.apellido = apellido;
-            this.edad = edad;
-            this.domicilio = domicilio;
-        }
-
-        public String getNombre() {
-            return nombre;
-        }
-
-        public String getApellido() {
-            return apellido;
-        }
-
-        public int getEdad() {
-            return edad;
-        }
-
-        public String getDomicilio() {
-            return domicilio;
         }
     }
 }
