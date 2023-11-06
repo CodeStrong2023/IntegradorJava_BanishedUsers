@@ -1,6 +1,7 @@
 package test;
 
 import static domain.AnimacionInicio.AnimacionInicio;
+import domain.FaseLunar;
 import static domain.Registro.submenuRegistro;
 import java.io.IOException;
 import java.util.Scanner;
@@ -37,7 +38,7 @@ public class testMenu {
             submenuRegistro(); // Llamamos al SubMenu de Registro
             break;}
 	case 2 -> {
-            // Consultar estado de la Luna
+            FaseLunar.calcularFaseLunar(); // Llamamos al método de la clase FaseLunar
             break;
         }
 	case 3 -> {
