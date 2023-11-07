@@ -33,7 +33,6 @@ public class Opcion3 {
                 System.out.println("Listado de pesca:");
                 System.out.println("");
                 System.out.println("Cantidad    |   Tipo");
-                System.out.println("____________________");
                 
                 // Ciclo para mostrar la cantidad y tipo el arreglo
                 for (int i = 0; i < n; i++) {
