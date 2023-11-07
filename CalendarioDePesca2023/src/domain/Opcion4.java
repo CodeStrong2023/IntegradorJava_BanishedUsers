@@ -1,7 +1,7 @@
 package domain;
 
 
-public class Salir {
+public class Opcion4 {
     public static void Salir(){
         System.out.println("Gracias por testear nuestro proyecto!");
         System.out.println("Realizado por los siguientes alumnos:");

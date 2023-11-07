@@ -4,7 +4,7 @@ package domain;
 
 import java.util.Scanner;
 
-public class FaseLunar {
+public class Opcion2 {
     static Scanner entrada = new Scanner(System.in);
     static int mesElegido;
     static int fecha;

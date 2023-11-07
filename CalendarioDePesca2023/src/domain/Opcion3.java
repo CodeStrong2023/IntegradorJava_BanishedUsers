@@ -3,7 +3,7 @@ package domain;
 import java.util.Scanner;
 
 
-public class RegistroPez {
+public class Opcion3 {
     public static void registrarPesca() {
         Scanner entrada = new Scanner(System.in);
         int MAX_REGISTROS = 99; // Se define una variable en mayus (constante) que representa el número máximo de registros de pescado que se pueden ingresar

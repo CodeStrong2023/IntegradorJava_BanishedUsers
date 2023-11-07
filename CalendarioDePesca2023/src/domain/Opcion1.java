@@ -2,10 +2,10 @@ package domain;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Registro {
+public class Opcion1 {
     static Scanner entrada = new Scanner(System.in);
 //    static int opcion = 0; //opción elegida del usuario
-    static ArrayList<Registro> listaUsuarios = new ArrayList<>(); // Colección para almacenar usuarios
+    static ArrayList<Opcion1> listaUsuarios = new ArrayList<>(); // Colección para almacenar usuarios
 
         private String nombre;
         private String apellido;
@@ -13,7 +13,7 @@ public class Registro {
         private String domicilio;
         
         // Definimos el constructor método con sus get
-        public Registro(String nombre, String apellido, int edad, String domicilio) {
+        public Opcion1(String nombre, String apellido, int edad, String domicilio) {
             this.nombre = nombre;
             this.apellido = apellido;
             this.edad = edad;
@@ -70,7 +70,7 @@ public class Registro {
             String domicilio = entrada.nextLine();
 
             // Crear un nuevo usuario y agregarlo a la lista
-            Registro nuevoUsuario = new Registro(nombre, apellido, edad, domicilio);
+            Opcion1 nuevoUsuario = new Opcion1(nombre, apellido, edad, domicilio);
             listaUsuarios.add(nuevoUsuario);
 
             System.out.println("Registro exitoso.");
@@ -78,7 +78,7 @@ public class Registro {
 
         public static void mostrarUsuariosRegistrados() {
             System.out.println("Usuarios Registrados:");
-                for (Registro usuario : listaUsuarios) {
+                for (Opcion1 usuario : listaUsuarios) {
                 System.out.println("NOMBRE: " + usuario.getNombre() + " " + usuario.getApellido() + " | " + "EDAD: " + usuario.getEdad() + " | " + "DIRECCIÓN: " + usuario.getDomicilio());
 //            System.out.println("Nombre: " + usuario.getNombre());
 //            System.out.println("Apellido: " + usuario.getApellido());

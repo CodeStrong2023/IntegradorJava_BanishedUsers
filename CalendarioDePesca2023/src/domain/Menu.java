@@ -1,19 +1,17 @@
-package test;
+package domain;
 
 import static domain.AnimacionInicio.AnimacionInicio;
-import domain.Opcion2;
 import static domain.Opcion1.submenuRegistro;
-import domain.Opcion3;
-import domain.Opcion4;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class testMenu {
-    	static Scanner entrada = new Scanner(System.in);
-	static int opcion = 0; // Variable para la opción elegida del usuario
-        
-        public static void main(String[] args)throws IOException, InterruptedException{
-            
+
+public class Menu {
+    
+    static Scanner entrada = new Scanner(System.in);
+    static int opcion = 0; // Variable para la opción elegida del usuario
+    
+    public static void Menu()throws IOException, InterruptedException{
         System.out.println("Maximiza ventana-consola y presiona ENTER :D");
         int read = System.in.read(); // Espera el ENTER para avanzar
         AnimacionInicio(); // Llamamos al método AnimacionInicio
@@ -61,4 +59,3 @@ public class testMenu {
         }
     }
 }
-
