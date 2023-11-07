@@ -2,7 +2,8 @@ package domain;
 
 import java.io.IOException;
 
-
+// Para la animación de inicio usamos el paquete IOexception para la linea del sout
+// Tarde 120 milisegundos en imprimir, esto genera una animacion como de cascada.
 public class AnimacionInicio {
     public static void AnimacionInicio() throws InterruptedException, IOException {
         System.out.print("    _________    __    _______   ______  ___    ____  ________     ____   ______   ____  ___________ _________       \n");
@@ -31,9 +32,6 @@ public class AnimacionInicio {
         System.out.println("                                                   Bienvenid@ al Calendario de Pesca");
 	System.out.println("                                                                 2023!");
 	//
-        System.out.println("                                                Presiona La Tecla ENTER para CONTINUAR");
-        System.in.read();
-        System.out.println("");
     }
 }
 
