@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Registro {
     static Scanner entrada = new Scanner(System.in);
-    static int opcion = 0; //opción elegida del usuario
+//    static int opcion = 0; //opción elegida del usuario
     static ArrayList<Registro> listaUsuarios = new ArrayList<>(); // Colección para almacenar usuarios
 
         private String nombre;

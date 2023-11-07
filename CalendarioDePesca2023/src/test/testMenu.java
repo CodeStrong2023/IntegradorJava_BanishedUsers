@@ -3,6 +3,8 @@ package test;
 import static domain.AnimacionInicio.AnimacionInicio;
 import domain.FaseLunar;
 import static domain.Registro.submenuRegistro;
+import domain.RegistroPez;
+import domain.Salir;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -42,10 +44,10 @@ public class testMenu {
             break;
         }
 	case 3 -> {
-            // Registro de Pesca
+            RegistroPez.registrarPesca(); // Llamamos a la método de la clase RegistroPez
             break;}
 	case 4 -> {
-            // Salir (agregar mensaje)
+            Salir.Salir();
             break;
         }
 	default -> System.out.println("Error! El número: " + opcion + " no es una opción");
