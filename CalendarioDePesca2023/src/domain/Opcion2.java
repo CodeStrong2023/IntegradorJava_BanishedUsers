@@ -28,7 +28,7 @@ public class Opcion2 {
             11. Noviembre
             12. Diciembre
             """);
-            
+            System.out.print("Mes: ");
             mesElegido = Integer.parseInt(entrada.nextLine());  
 
             // condicional para verificar si el valor de "mesElegido" está dentro del rango (1-12)
