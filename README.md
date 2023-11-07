@@ -1,7 +1,8 @@
 <p align="center">
-  <img src="https://github.com/CodeStrong2023/IntegradorJava_BanishedUsers/assets/131505719/73218a8d-6f83-4fe5-b8dc-c6062771c237" width="400" height="200">
+  <img src="https://github.com/CodeStrong2023/IntegradorJava_BanishedUsers/assets/131505719/04e7e3ca-0574-4a03-a214-1f1d8ef91ecb" width="600" height="300">
 </p>
-<h1 align="center">[CALENDARIO DE PESCA 2023]</h1>
+
+---
 
 
 <details>
@@ -14,7 +15,6 @@
       </ul>
     </li>
     <li><a href="#instalación">Instalación</a></li>
-    <li><a href="#contribuir">Contribuir</a></li>
     <li><a href="#integrantes">Integrantes</a></li>
   </ol>
 </details>
@@ -47,28 +47,15 @@ Para ejecutar el programa, debes tener instalado Java en tu sistema. Puedes desc
 ```bash
 git clone https://github.com/CodeStrong2023/IntegradorJava_BanishedUsers.git
 ```
-2. Usar Apache Netbeans para abrir el proyecto. Puedes descargarlo desde [netbeans.com](https://netbeans.apache.org/front/main/download/)
-
----
-
-## Contribuir
-1. **Clonar el Repositorio**:
-    ```bash
-    git clone https://github.com/CodeStrong2023/IntegradorJava_BanishedUsers.git
-    ```
-  
-2. **Crear una Nueva Rama**: Antes de subir los cambios, crea una rama con el siguiente comando en Git Bash:
-    ```bash
-    git checkout -b [nombre-de-tu-rama]
-    ```
-  
-3. **Subir Cambios**: Después de completar los cambios, procede a cargarlos mediante un "push" a tu rama (no a la rama principal).
-    ```bash
-    git add .
-    git commit -m "Descripción de los cambios"
-    git push origin [nombre-de-tu-rama]
-    ```
-
+2. Navega hasta la carpeta del proyecto:
+```bash
+cd IntegradorJava_BanishedUsers/CalendarioDePesca2023
+```
+3. Ejecuta el siguiente comando:
+```bash
+java -cp dist/CalendarioDePesca2023 main.main
+```
+4. O Usar Apache Netbeans para abrir el proyecto. Puedes descargarlo desde [netbeans.com](https://netbeans.apache.org/front/main/download/)
 ---
 
 ## Integrantes
@@ -99,6 +86,5 @@ git clone https://github.com/CodeStrong2023/IntegradorJava_BanishedUsers.git
   </tr>
 </table>
 
----
 
 
